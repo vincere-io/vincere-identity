@@ -145,3 +145,4 @@ Content-Type: application/json
 }
 ```
 
+For more information about OAuth2, please refer to https://www.digitalocean.com/community/tutorials/an-introduction-to-oauth-2 
