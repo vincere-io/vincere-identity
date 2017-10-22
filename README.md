@@ -93,7 +93,7 @@ Refresh token has been revoked.
 
 Authorization code has been consumed already or does not exist.
 
-### LOGOUT Engpoint ###
+### LOGOUT Endpoint ###
 
 >**GET** /oauth2/logout
 
