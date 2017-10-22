@@ -44,7 +44,7 @@ Sample Response
 
 ### Get tokens ###
 
->POST /oauth2/token
+>**POST** /oauth2/token
 >Content-Type: application/x-www-form-urlencoded
 
 The /oauth2/token endpoint only supports HTTPS POST. You application makes requests to this endpoint directly to get refresh_token (for the first time using authorization_code), and refresh id_token + access_token for next times. 
