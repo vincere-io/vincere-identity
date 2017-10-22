@@ -13,7 +13,7 @@ All of those can be obtained from Vincere App page > API section. There are 2 en
 
 ## Complete the authorization flow ##
 
-### Get an authorization code ###
+* ### Get an authorization code ###
 
 >**GET** /oauth2/authorize
 
@@ -42,7 +42,7 @@ Sample Response
 
 *It is highly recommended that you have to store refresh_token securedly (you should store it on server-side, and use id_token in browsers).* 
 
-### Get tokens ###
+* ### Get tokens ###
 
 >**POST** /oauth2/token
 >Content-Type: application/x-www-form-urlencoded
@@ -93,7 +93,7 @@ Refresh token has been revoked.
 
 Authorization code has been consumed already or does not exist.
 
-### LOGOUT Endpoint ###
+* ### LOGOUT Endpoint ###
 
 >**GET** /oauth2/logout
 
@@ -110,7 +110,7 @@ redirect_uri | query param | **Required** your redirect uri that registered with
 response_type | query param | **Required** Only accept *code* 
 
 
-### Get user services ###
+* ### Get user services ###
 
 >**GET** /oauth2/user 
 >Header: token: id_token
