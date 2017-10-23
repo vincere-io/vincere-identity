@@ -40,7 +40,7 @@ Sample Response
 
 > https://YOUR_APP/redirect_uri?code=AUTHORIZATION_CODE&state=STATE
 
-*It is highly recommended that you have to store refresh_token securedly (you should store it on server-side, and use id_token in browsers).* 
+*It is highly recommended that you have to store refresh_token securedly (for example server-side to avoid exposing it externally).* 
 
 * ### Get tokens ###
 
@@ -60,7 +60,7 @@ refresh_token | body | **Optional** refresh token. Required in case grant_type i
 
 **Response**
 
- Depending on your requests to token endpoint, the response would return refresh_token + access_token + id_token (in case of grant_type=authorization_code), or oonly access_token + id_token in case of refresh_token. 
+ Depending on your requests to token endpoint, the response would return refresh_token + access_token + id_token (in case of grant_type=authorization_code), or only access_token + id_token in case of grant_type=refresh_token. 
 
 Sample Response
 
