@@ -151,6 +151,4 @@ After obtaining tokens you can make REST calls that get data or perform CRUD ope
 > https://<YOUR_VINCERE_DOMAIN>/api/v2/candidate/1234  
 > Header: token: id_token
 
-You need to refresh your token once it's expired. 
-
 For more information about OAuth2, please refer to https://www.digitalocean.com/community/tutorials/an-introduction-to-oauth-2 
