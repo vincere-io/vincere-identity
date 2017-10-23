@@ -44,7 +44,7 @@ Sample Response
 
 * ### Get tokens ###
 
->**POST** /oauth2/token
+>**POST** /oauth2/token  
 >Content-Type: application/x-www-form-urlencoded
 
 The /oauth2/token endpoint only supports HTTPS POST. You application makes requests to this endpoint directly to get refresh_token (for the first time using authorization_code), and refresh id_token + access_token for next times. 
@@ -68,9 +68,9 @@ Sample Response
 Content-Type: application/json
 
 { 
- "access_token":"eyJz9sdfsdfsdfsd", 
- "refresh_token":"dn43ud8uj32nk2je", 
- "id_token":"dmcxd329ujdmkemkd349r",
+ "access_token":"634563675783dfjh", 
+ "refresh_token":"hgsgf6343g5gg", 
+ "id_token":"7765634hhg4fggf",
  "token_type":"Bearer", 
  "expires_in":3600
 }
@@ -112,10 +112,10 @@ response_type | query param | **Required** Only accept *code*
 
 * ### Get user services ###
 
->**GET** /oauth2/user 
+>**GET** /oauth2/user  
 >Header: token: id_token
 
-To get the list of Vincere service that authenticated user using, you need to call this API. 
+To get the list of Vincere service that authenticated user is using, you need to call this API. 
 
 **Request parameters**
 
@@ -144,5 +144,13 @@ Content-Type: application/json
  ]
 }
 ```
+* ### Token to use APIs v2 ###
+
+After obtaining tokens you can make REST calls that get data or perform CRUD operations on Vincere data. The request has to pass in token: id_token as header param. Example is below: 
+
+> https://<YOUR_VINCERE_DOMAIN>/api/v2/candidate/1234  
+>Header: token: id_token
+
+You need to refresh your token once it's expired. 
 
 For more information about OAuth2, please refer to https://www.digitalocean.com/community/tutorials/an-introduction-to-oauth-2 
