@@ -147,9 +147,9 @@ Content-Type: application/json
 ```
 * ### Token to use APIs v2 ###
 
-After obtaining tokens you can make REST calls that get data or perform CRUD operations on Vincere data. The request has to pass in token: id_token as header param. Example is below: 
+After obtaining tokens you can make REST calls that get data or perform CRUD operations on Vincere data. The request has to pass in id-token: id_token as header param. Example is below: 
 
 > https://<YOUR_VINCERE_DOMAIN>/api/v2/candidate/1234  
-> Header: id_token: id_token
+> Header: id-token: id_token
 
 For more information about OAuth2, please refer to https://www.digitalocean.com/community/tutorials/an-introduction-to-oauth-2 
