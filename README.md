@@ -148,8 +148,8 @@ Content-Type: application/json
 
 After obtaining tokens you can make REST calls that get data or perform CRUD operations on Vincere data. The request has to pass in token: id_token as header param. Example is below: 
 
-> https://<YOUR_VINCERE_DOMAIN>/api/v2/candidate/1234  
->Header: token: id_token
+> https://<YOUR_VINCERE_DOMAIN>/api/v2/candidate/1234  
+> Header: token: id_token
 
 You need to refresh your token once it's expired. 
 
