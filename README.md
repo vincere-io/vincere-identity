@@ -122,7 +122,7 @@ To get the list of Vincere service that authenticated user is using, you need to
 
 parameters | location | description 
 -----------| ---------| -----------
-id_token | header param | **Required**. user's id_token
+id-token | header param | **Required**. user's id_token
 
 **Response**
 
