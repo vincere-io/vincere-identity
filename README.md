@@ -114,7 +114,7 @@ response_type | query param | **Required** Only accept *code*
 * ### Get user services ###
 
 >**GET** /oauth2/user  
->Header: token: id_token
+>Header: id-token: id_token
 
 To get the list of Vincere service that authenticated user is using, you need to call this API. 
 
