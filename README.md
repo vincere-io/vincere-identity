@@ -51,7 +51,8 @@ Sample Response
 >**POST** /oauth2/token  
 >Content-Type: application/x-www-form-urlencoded
 
-The /oauth2/token endpoint only supports HTTPS POST. Right after receiving authorization code, your responsibility is to make first request to this endpoint to get refresh_token, access_token and id_token. **Remember that refresh_token is allocated only one time/code. Repeated calls would result in *invalid_grant*** Following calls with refresh token in body would return only new id_token + access_token. 
+The /oauth2/token endpoint only supports HTTPS POST. Right after receiving authorization code, your responsibility is to make first request to this endpoint to get refresh_token, access_token and id_token.
+**Remember that refresh_token is allocated only one time/code. Repeated calls would result in *invalid_grant***. Following calls with refresh token in body would return only new id_token + access_token. 
  
 **Request Parameters**
 
