@@ -21,7 +21,7 @@ There are 2 environments provided for Vincere Identity:
 
 >**GET** /oauth2/authorize
 
-The /oauth2/authorize endpoint only supports HTTPS GET. The user pool client typically makes this request through the system browser. This step would return you access_token + id_token (expired in 1 hour) and refresh_token to refresh the 2 ones. 
+The /oauth2/authorize endpoint only supports HTTPS GET. The user pool client typically makes this request through the system browser. This step would return you **authorization code" (which is expired shortly). 
 
 **Request parameters**
 
