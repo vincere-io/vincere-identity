@@ -15,6 +15,11 @@ There are 2 environments provided for Vincere Identity:
 * production at **https://id.vincere.io**, 
 * test at **https://id.vinceredev.com**. Please contact us in case you need a test environment.  
 
+The sequence diagram describing the process:
+
+![Sequence Diagram](https://github.com/vincere-io/vincere-identity/blob/master/Vincere%20API%20Authentication%20Flow%20-%20Sequence%20Diagram%20V2.png)
+
+
 ## Complete the authorization flow ##
 
 * ### Get an authorization code ###
