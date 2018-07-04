@@ -144,11 +144,13 @@ Content-Type: application/json
  "tenants": [
  	{
  		"tenant": "abc.vincere.io",
- 		"userId": 1234
+ 		"userId": 1234,
+ 		"apiKey": "faad49b3935a5127be470102c95f50eb"
  	},
  	{
  		"tenant": "abc1.vincere.io",
- 		"userId": 123
+ 		"userId": 123,
+ 		"apiKey": "ckih88b3935a5127be470102c95f10yy"
  	}
  ]
 }
